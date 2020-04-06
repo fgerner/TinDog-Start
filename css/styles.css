@@ -8,14 +8,14 @@ tbody {
 }
 
 #features {
-    color: #ff4c68;
+    padding: 7% 15%;
 }
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-.dog-phone{
+.dog-phone {
     width: 60%;
     transform: rotate(25deg);
 }
@@ -27,19 +27,20 @@ tbody {
 h1 {
     font-family: "Montserrat-Black", sans-serif;
     font-size: 3.5rem;
-    font-weight: 900;
+    /*font-weight: 900;*/
     line-height: 1.5;
 }
 
 h3 {
+    font-family: "Montserrat-Bold", sans-serif;
     font-size: 1.5rem;
     color: black;
 }
 
 p {
     font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-    color: darkgray;
+    font-family: "Montserrat-Light", sans-serif;
+    color: #8f8f8f;
 }
 
 .navbar {
@@ -47,7 +48,7 @@ p {
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu", sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -58,10 +59,21 @@ p {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat-Light";
+    font-family: "Montserrat-Light", sans-serif;
 }
 
-.feature {
+.feature-box {
     text-align: center;
-    font-size: 5rem;
+    padding: 5%;
+    /*font-size: 1.5rem;*/
 }
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
