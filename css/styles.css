@@ -9,15 +9,19 @@ tbody {
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
-.dog-phone {
+.title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 .download-button {
@@ -71,7 +75,7 @@ p {
 .feature-box {
     text-align: center;
     padding: 5%;
-    /*font-size: 1.5rem;*/
+
 }
 
 .icon {
